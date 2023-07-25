@@ -1,0 +1,43 @@
+<!DOCTYPE htlm>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Books or Ebooks?</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+  <h1 id="title">Books or Ebooks?</h1>
+  <p id="description">Do you prefer to read books in paper format or in digital format?</p>
+<fieldset>
+   <form id="survey-form">
+    <label id="name-label">Name:</label><input id="name" type="text" required placeholder="Enter your name"><br>
+    <label id="email-label">Email:</label><input id="email" type="email" required placeholder="Enter your email"><br>
+    <label id="number-label">Age:</label><input id="number" type="number" min="18" max="99" placeholder="Age"><br>
+<label>Do you often read paper books?</label>
+<label id="yes">Yes</label><input id="yes" type="radio" name="yes-no" value="yes"/>
+<label id="no">No</label><input id="no" type="radio" class="inline" name="yes-no" value="no"/><br>
+<label id="books-year">How often do you buy books per year?<select id="dropdown"> 
+  <option value="">(select one)</option>
+  <option value="1">1 - 10</option>
+  <option value="2">11 - 50</option>
+  <option value="3">+ 51</option>
+  </select><br></label>
+      <label>Do you own an e-book?</label><label id="yes">Yes</label><input id="yes" type="radio" name="yes-no" value="yes"/>
+<label id="no">No</label><input id="no" type="radio" class="inline" name="yes-no" value="no"/><br>
+<label>If yes, which of these reasons made you want to buy one?</label><br>
+ <input id="environment" type="checkbox" name="features" value="environment" checked> <label for="environment">Environment Friendly Option</label><br>
+<input id="one-device" type="checkbox" name="features" value="one-device"> <label for="one-device">One Device, Many Books</label><br>
+<input id="eyes" type="checkbox" name="features" value="eyes"> <label for="eyes">Easy on eyes</label><br> 
+<input id="other" type="checkbox" name="features" value="other"> <label for="onthe">Other (specify)</label><br>
+<textarea id="other" name="other" placeholder="Write here"></textarea><br>
+<label>If no, would you consider buying one?</label><br><label id="yes">Yes</label><input id="yes" type="radio" name="yes-no" value="yes"/>
+<label id="no">No</label><input id="no" type="radio" class="inline" name="yes-no" value="no"/><br>
+        <label>If you had to choose one of the two, which would you choose?</label><br>
+<label id="book">Book</label><input id="book" type="radio" name="book-ebook-both" value="book"/><br>
+<label id="ebook">Ebook</label><input id="ebook" type="radio" name="book-ebook-both" value="ebook"/><br>
+<label id="both">Both</label><input id="both" type="radio" name="book-ebook-both" value="both"/><br>
+  <input id="submit" type="submit" value="Submit" />
+       </fieldset>
+      </form>
+      </body>
+</html>
