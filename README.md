@@ -1,4 +1,4 @@
-# Survey Form: books or e-books?
+# 📖 Survey Form: books or e-books?
 
 ## About the survey form
 This project was created as a way to learn more about how people choose between books and ebooks. 
@@ -10,3 +10,6 @@ This project was built with the following technologies:
 
 + HTML
 + CSS
+
+## Acknowledgments
+This project was created as a simple example for learning purposes.
